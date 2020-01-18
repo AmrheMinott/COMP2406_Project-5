@@ -1,0 +1,54 @@
+html
+  head
+    title User Profile
+
+  body
+    include ../partials/header
+
+    p#id #{result._id}
+    p Name of Profile Owner #{result.username}
+
+    p Session Name: #{result.sessionName}
+
+    if result.username === result.sessionName
+
+      p Change the value of your privacy!
+
+      input#check(type="checkbox" , value="Privacy" , onchange="privacyChange()" , checked=result.privacy)
+
+      p#privacyText The current status of your privacy is #{result.privacy}
+
+      br
+
+      input(type="button" , value="Save Changes" , onclick="save()")
+
+      br
+      br
+      br
+
+      a(href="http://localhost:3000/quiz") Take the QUIZ
+
+      br
+      br
+
+      p#totalQuizzes Total # of quizzes played: #{result.total_quizzes}
+      if result.total_quizzes === 0
+        p#userAvg Avg = 0
+      else
+        p#userAvg Avg = #{result.total_score/result.total_quizzes}
+
+    else if result.username !== result.sessionName && result.privacy === false
+      p#totalQuizzes Total # of quizzes played: #{result.total_quizzes}
+      if result.total_quizzes === 0
+        p#userAvg Avg = 0
+      else
+        p#userAvg Avg = #{result.total_score/result.total_quizzes}
+
+
+    br
+    br
+
+    if result.username === result.sessionName
+      input(type="button" , value="Log Out" , onclick="logOut()")
+
+    script(src='/js/profile.js')

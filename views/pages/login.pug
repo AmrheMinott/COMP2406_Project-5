@@ -1,0 +1,16 @@
+html
+  head
+    title Login Page
+
+  body
+    include ../partials/header
+
+    form(method="GET", action="/login")
+
+      p User Name:
+        input#username(type="text", name="username" , required)
+
+      p Password:
+        input#password(type="password", name="password" , required)
+
+      input(type="submit" , value="Login!!!!!!!!!!!!!!!!!!!!!!!!!!!!")

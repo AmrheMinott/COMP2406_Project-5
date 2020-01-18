@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>User Profile</title>
+  </head>
+
+  <body onload="onLoad()">
+
+    <h1 id="userName"></h1>
+
+    <br>
+    <br>
+    <br>
+
+    <p>Change the value of your privacy!</p>
+
+    <input id="radioButton" type="radio" value="Privacy" onchange="privacyChange()">
+    <p id="privacyText"></p>
+
+    <br>
+    <br>
+    <br>
+
+    <input type="button" value="Save Changes" onclick="save()">
+
+    <br>
+    <br>
+
+    <p id="totalQuizzes"></p>
+    <p id="userAvg"></p>
+
+    <br>
+    <br>
+
+    <input type="button" value="Log Out" onclick="logOut()">
+
+    <script src="profile.js"></script>
+  </body>
+
+</html>

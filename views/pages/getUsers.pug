@@ -1,0 +1,10 @@
+html
+  head
+    title Users on Database
+
+  body
+  include ../partials/header
+
+  each user in users
+    a(href=`http://localhost:3000/users/${user._id}`) #{user.username}
+    br

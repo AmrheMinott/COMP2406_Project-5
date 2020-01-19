@@ -8,7 +8,7 @@ Idea behind the assignment:	This is a quiz generator that only supplies you with
 
 
 Necessary Files Given inside the zip folder after being unzipped to run program
-1.	P5-BaseCode (folder)
+1.	P5-BaseCode (folder)       -> this where you choose to downlaod and run your files from
 2.	public (folder)
 3.	P5-data (folder)           –>  this is where you will hold your wt fils after doing mongod -—dbpath=P5-data
 4.	views (folder)             –>  where the pug files are located
@@ -19,7 +19,7 @@ Necessary Files Given inside the zip folder after being unzipped to run program
 
 
 Setup
-1.	Open terminal/cmd then Navigate to file P5-BaseCode
+1.	Open terminal/cmd then Navigate to file P5-BaseCode/location of downloaded files
 2.	Do npm install – by doing this you should see a package-lock.json and node_modules appear
 
 
@@ -33,7 +33,9 @@ How to run File
 
 
 Sessions
-For the sessions I used a session model that does not rely on time… So your inactivity won’t result in your being “timed out”. However if the server is shut down or the browser is closed then the session is gone.
+For the sessions I used a session model that does not rely on a timer… So your inactivity won’t result in you being “timed out”. However if the server is shut down or the browser is closed then the session is gone.
 
 How to login
-By clicking the profile page that makes you able to login if you are not logged in at the moment
+By clicking the profile page that makes you able to login if you are not logged in at the moment. There you can procvide your credentials
+
+// end of ReadMe

@@ -7,9 +7,9 @@ const Question = require("./QuestionModel");
 const User = require("./UserModel");
 
 const app = express();
-app.use( session( {secret: "go get you own secret bitch"} ) );
+app.use( session( {secret: "go get a secret"} ) );
 
-// homa page url
+// home page url
 const homeLink = "http://localhost:3000/";
 
 app.set("view engine", "pug");

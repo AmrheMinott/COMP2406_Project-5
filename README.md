@@ -4,7 +4,8 @@ Done by Amrhe Minott
 Student Number:		101107093
 
 
-Idea behind the assignment:	This is a quiz generator that only supplies you with quizzes if you are logged into the server where your information is saved in a server
+What Project is about:
+  This is a quiz generator that only supplies you with quizzes if you are logged into the server where your information is saved in a server
 
 
 Necessary Files Given inside the zip folder after being unzipped to run program

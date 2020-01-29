@@ -9,7 +9,7 @@ What Project is about:
 
 
 Necessary Files Given inside the zip folder after being unzipped to run program
-1.	P5-BaseCode (folder)&nbsp;&nbsp;-> this where you choose to downlaod and run your files from
+1.	P5-BaseCode (folder)       -> this where you choose to downlaod and run your files from
 2.	public (folder)
 3.	P5-data (folder)           –>  this is where you will hold your wt fils after doing mongod -—dbpath=P5-data
 4.	views (folder)             –>  where the pug files are located
